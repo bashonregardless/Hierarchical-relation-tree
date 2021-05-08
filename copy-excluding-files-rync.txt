@@ -1,3 +1,4 @@
+(REFER: https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/)
 command:
   rsync -a --exclude-from='exc-p.txt' src_dir/* dest_dir/
 
