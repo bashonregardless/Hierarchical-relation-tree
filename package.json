@@ -1,0 +1,37 @@
+{
+  "name": "vanilla-js-state-management",
+  "version": "1.0.0",
+  "description": "🎉 **You can now find a packaged version of this called [Beedle](https://github.com/hankchizljaw/beedle)** 🎉",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config ./webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankchizljaw/vanilla-js-state-management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hankchizljaw/vanilla-js-state-management/issues"
+  },
+  "homepage": "https://github.com/hankchizljaw/vanilla-js-state-management#readme",
+  "dependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "source-map-loader": "^0.2.4",
+    "webpack-visualizer-plugin": "^0.1.11"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

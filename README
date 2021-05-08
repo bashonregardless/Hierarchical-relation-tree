@@ -1,0 +1,32 @@
+NOTE 'node', 'npm' are required.
+
+-----------------------------------
+
+After cloning the repo
+
+Install Webpack development server that provides live reloading.
+This should be used for development only.
+
+`npm install webpack-dev-server --save-dev`
+
+
+`npm install`
+`npm run build`
+`npm run start`
+
+-----------------------------------
+
+Steps to produce data consumable by the program from file data.js (currently in
+src/js/store/data.js):
+
+$ node flow-algo.js > data.txt
+
+(If necessary)
+quote your string in data.txt file, so that it becomes a single argument:
+	$ ~/compSc/quoteStr.sh [file]
+
+Output in file can now be consumed in the program
+
+-----------------------------------
+
+Output of flow-algo process is imported in the file src/js/store/index.js 

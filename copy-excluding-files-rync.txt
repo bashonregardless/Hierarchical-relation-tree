@@ -1,0 +1,18 @@
+command:
+  rsync -a --exclude-from='exc-p.txt' src_dir/* dest_dir/
+
+NOTES:
+  --exclude-from=FILE     read exclude patterns from FILE
+
+For eg:
+  Suppose the contents of exc-p.txt file be:
+  "
+  .git
+  node_modules
+  dist/*
+  "
+
+  If you want to exclude the directory .git and node_modules
+  and
+  If you want to exclude the directory content but not the 
+  directory itself use dist/* instead of dist.
