@@ -1,0 +1,2 @@
+To work with data other than the default, change `const state = require('./path/to/file')`
+line in flow-algo.js to one of the files.

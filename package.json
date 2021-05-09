@@ -1,8 +1,8 @@
 {
-  "name": "vanilla-js-state-management",
+  "name": "hierarchical-relationship-tree",
   "version": "1.0.0",
-  "description": "🎉 **You can now find a packaged version of this called [Beedle](https://github.com/hankchizljaw/beedle)** 🎉",
-  "main": "index.js",
+  "description": "",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --config ./webpack.config.js",
@@ -10,15 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hankchizljaw/vanilla-js-state-management.git"
+    "url": "https://github.com/bashonregardless/vanilla-js-state-management"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hankchizljaw/vanilla-js-state-management/issues"
+    "url": "https://github.com/bashonregardless/Hierarchical-relation-tree/issues"
   },
-  "homepage": "https://github.com/hankchizljaw/vanilla-js-state-management#readme",
   "dependencies": {
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
@@ -32,6 +31,6 @@
     "style-loader": "^1.0.1",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.11.2"
   }
 }

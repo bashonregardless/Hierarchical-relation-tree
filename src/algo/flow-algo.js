@@ -18,7 +18,11 @@
  * Back Edge: Node -> Ancestor
  */
 
-const state = require('./src/js/store/data-max-od-2.js');
+/* Change file name to
+ * data-max-od-2.js or data-many-nodes.js
+ * to work with data other than the default.
+ */
+const state = require('../../test-data/data.js');
 const POSITION_GENERATOR = require('./position-generator');
 
 var GRAPH_EXPLORER = Object.create(

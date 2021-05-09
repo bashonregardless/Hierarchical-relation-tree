@@ -17,15 +17,16 @@ This should be used for development only.
 -----------------------------------
 
 Steps to produce data consumable by the program from file data.js (currently in
-src/js/store/data.js):
+test-data/data.js):
 
-$ node flow-algo.js > data.txt
+$ node flow-algo.js > data.json
 
 (If necessary)
 quote your string in data.txt file, so that it becomes a single argument:
 	$ ~/compSc/quoteStr.sh [file]
 
-Output in file can now be consumed in the program
+To work with data other than the default, change `const state = require('./path/to/file')`
+line in flow-algo.js to one of the files in test-data/ directory.
 
 -----------------------------------
 

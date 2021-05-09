@@ -1,3 +1,7 @@
+/* This code has been extracted from file flow-algo.js. 
+ * It is used to make back edge.
+ */
+
 /* ASSUMPTION:
  * In n-ary tree if the index of subtree branch is less than floor(treeEdgeCount / 2),
  * where treeEdgeCount is total number of tree edges of connected ancestor node.
