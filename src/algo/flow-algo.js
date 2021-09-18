@@ -22,7 +22,7 @@
  * data-max-od-2.js or data-many-nodes.js
  * to work with data other than the default.
  */
-const state = require('../../test-data/data.js');
+const state = require('../../test-data/data-many-nodes.js');
 const POSITION_GENERATOR = require('./position-generator');
 
 var GRAPH_EXPLORER = Object.create(

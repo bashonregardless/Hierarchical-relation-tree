@@ -19,7 +19,7 @@ This should be used for development only.
 Steps to produce data consumable by the program from file data.js (currently in
 test-data/data.js):
 
-$ node flow-algo.js > data.json
+$ node $(find . -name 'flow-algo.js') > data.json
 
 (If necessary)
 quote your string in data.txt file, so that it becomes a single argument:
